@@ -6,4 +6,4 @@ COPY . .
 RUN npm run-script run
 
 EXPOSE 5000
-CMD [ "node", "app.js" ]
+CMD [ "/bin/bash", "npm", "run-script", "run" ]
